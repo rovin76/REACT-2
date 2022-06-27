@@ -1,6 +1,8 @@
-#Todos
-##HandleToggle
-const handleToggle = (id) => {
+# Todos
+
+## HandleToggle
+
+````const handleToggle = (id) => {
 // write logic later
 const updatedData = todos.map((item) =>
 item.id === id
@@ -11,17 +13,19 @@ status: !item.status
 : item
 );
 setTodos(updatedData);
-};
-##handleDelete
-const handleDelete = (id) => {
+};```
+
+## handleDelete
+
+```const handleDelete = (id) => {
 // write logic later
 const updatedData = todos.filter((item) => item.id !== id);
 setTodos(updatedData);
-};
+};```
 
 ## InCompleted Data Show
 
-<AddTodo handleAdd={handleAdd} />
+```<AddTodo handleAdd={handleAdd} />
       <div>
         {/* TODO LIST */}
         <TodoList
@@ -30,4 +34,5 @@ setTodos(updatedData);
           handleToggle={handleToggle}
           handleDelete={handleDelete}
         />
-</div>
+</div>```
+````
