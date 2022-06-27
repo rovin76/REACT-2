@@ -1,6 +1,8 @@
 # Todos
 
-## HandleToggle
+- HandleToggle
+- handleDelete
+- InCompleted Data Show
 
 `````const handleToggle = (id) => {
 // write logic later
