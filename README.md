@@ -15,9 +15,12 @@
 - Handle Total Price By Reducer :
 
 ```
-    let total = data.reduce((acc, curr) => {
-       return acc + curr.qty * curr.price;
-     }, 0);
+  const TotalCost=(data)=>{
+    return data.reduce((acc, curr) => {
+      return acc + curr.qty * curr.price;
+    }, 0);
+  }
+
 ```
 
 .................................

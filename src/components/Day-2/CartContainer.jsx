@@ -32,10 +32,11 @@ const CartContainer = () => {
     setData(temp);
   };
 
-  let total = data.reduce((acc, curr) => {
-    return acc + curr.qty * curr.price;
-  }, 0);
-
+  const TotalCost = (data) => {
+    return data.reduce((acc, curr) => {
+      return acc + curr.qty * curr.price;
+    }, 0);
+  };
   return (
     <div>
       <h3>............Day-2...............</h3>
@@ -50,7 +51,7 @@ const CartContainer = () => {
         />
       ))}
 
-      <Total total={total} />
+      <Total total={TotalCost(data)} />
     </div>
   );
 };
