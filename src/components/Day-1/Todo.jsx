@@ -33,6 +33,7 @@ const Todo = () => {
   };
   return (
     <div>
+      <h3> .............Day-1.................. </h3>
       <TodoAdd handleAdd={handleAdd} />
       <TodoItem
         data={todos}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css";
+import "../../styles.css";
 import TodoList from "./TodoList";
 const TodoItem = ({ data, handleDelete, handleToggle }) => {
   return (

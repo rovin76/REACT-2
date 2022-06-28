@@ -1,4 +1,12 @@
-# Todos
+# Day-2 (useEffect)
+
+## useEffect
+
+.................................
+
+# Day-1 (functions,state,props)
+
+## Todos
 
 - HandleToggle
 - handleDelete
