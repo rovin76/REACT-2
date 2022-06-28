@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CartItem from "./CartItem";
+import Total from "./Total";
 
 const CartContainer = () => {
   let initialData = [
@@ -23,6 +24,18 @@ const CartContainer = () => {
     }
   ];
   const [data, setData] = useState(initialData);
+
+  const handleQtyChange = (id, value) => {
+    let temp = data.map((item) =>
+      item.id === id ? { ...item, qty: item.qty + value } : item
+    );
+    setData(temp);
+  };
+
+  let total = data.reduce((acc, curr) => {
+    return acc + curr.qty * curr.price;
+  }, 0);
+
   return (
     <div>
       <h3>............Day-2...............</h3>
@@ -32,8 +45,12 @@ const CartContainer = () => {
           product_name={item.product_name}
           price={item.price}
           qty={item.qty}
+          handleQtyChange={handleQtyChange}
+          id={item.id}
         />
       ))}
+
+      <Total total={total} />
     </div>
   );
 };

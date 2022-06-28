@@ -1,11 +1,13 @@
 import React from "react";
 
-const Button = ({ qty }) => {
+const Button = ({ id, qty, handleQtyChange }) => {
   return (
     <div>
-      <button>-</button>
+      <button disabled={qty === 0} onClick={() => handleQtyChange(id, -1)}>
+        -
+      </button>
       {qty}
-      <button>+</button>
+      <button onClick={() => handleQtyChange(id, +1)}>+</button>
     </div>
   );
 };

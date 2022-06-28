@@ -1,6 +1,22 @@
-# Day-2 (useEffect)
+# Day-2
 
-## useEffect
+# TodoApp with increment,decrement butttons as well as Total Updation
+
+- Handle Qauntity
+
+  ```
+   const handleQtyChange=(id,value)=>{
+    let temp= data.map((item)=>item.id===id ? {...item,qty :  item.qty+value} : item )
+    setData(temp)
+  }
+
+  ```
+
+- Handle Total Price By Reducer :
+
+``````let total = data.reduce((acc, curr) => {
+       return acc + curr.qty * curr.price;
+     }, 0);```
 
 .................................
 
@@ -45,4 +61,4 @@ setTodos(updatedData);
           handleDelete={handleDelete}
         />
 </div>```
-`````
+``````

@@ -2,15 +2,15 @@ import React from "react";
 import "./styles.css";
 import Button from "./Button";
 
-const CartItem = ({ product_name, price, qty }) => {
+const CartItem = ({ handleQtyChange, product_name, price, qty, id }) => {
   console.log("cart", product_name);
   return (
     <div>
       <ul>
-        <li>
+        <li style={{ display: "flex" }}>
           <p> {product_name} </p>
           <p> {price} </p>
-          <Button qty={qty} />
+          <Button qty={qty} id={id} handleQtyChange={handleQtyChange} />
         </li>
       </ul>
     </div>
