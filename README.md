@@ -6,7 +6,29 @@
 
 ### List Of Points
 
-#### 1.
+#### 1. Pagination :
+
+- do inc, dec with button onClick function .
+
+```
+  const [page,setPage]=useState(1);
+  const getTodos = async (page) => {
+    try {
+      let res = await fetch(
+        `https://jsonplaceholder.typicode.com/todos?_page=${page}&_limit=10`
+      );
+      let data = await res.json();
+      setTodos(data);
+    } catch (err) {
+      console.log("error", err);
+    }
+  };
+  useEffect(() => {
+    getTodos(page);
+  }, [page]);
+
+
+```
 
 #### 2.
 
