@@ -1,11 +1,16 @@
+# Day-3 () :
 
+## UseEffect,
 
+.................................
 
-# Day-2 () :- 
+# Day-2 () :-
 
-## TodoApp with increment,decrement butttons as well as Total Updation, fetch data from api using useEffect
+## TodoApp ,UseEffect
 
-- Fetch API using UseEffect
+### TodoApp , Update Object of array, fetch data from api using useEffect
+
+<h4> Fetch API using UseEffect </h4>
 
 ```
 const getTodos= async ()=>{
@@ -47,8 +52,10 @@ const getTodos= async ()=>{
 
 .................................
 
-# Day-1 () :- 
+# Day-1 () :-
+
 ## functions,state,props
+
 ### Todos
 
 - HandleToggle
