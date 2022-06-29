@@ -4,7 +4,7 @@
 
 - UseEffect , axios, life cycle phases
 
-### List Of Points
+### Study Material :- 
 
 #### 1. Pagination :
 
@@ -43,7 +43,7 @@
 
 - TodoApp , Update Object of array, fetch data from api using useEffect
 
-### List of Points
+### Study Material :-
 
 #### 1.Fetch API using UseEffect
 
@@ -101,7 +101,7 @@ const getTodos= async ()=>{
 
 - functions,Todos,props,states etc
 
-### List Of Points:
+### Study Material :-
 
 #### 1.HandleToggle
 
