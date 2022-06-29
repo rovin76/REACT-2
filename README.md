@@ -10,7 +10,7 @@
 
 ### TodoApp , Update Object of array, fetch data from api using useEffect
 
-<h4> Fetch API using UseEffect </h4>
+<h4> - Fetch API using UseEffect </h4>
 
 ```
 const getTodos= async ()=>{
