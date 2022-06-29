@@ -4,6 +4,14 @@
 
 - UseEffect ,
 
+### List Of Points
+
+#### 1.
+
+#### 2.
+
+#### 3.
+
 .................................
 
 # Day-2 () :-
@@ -14,11 +22,11 @@
 
 ### List of Points
 
-#### Fetch API using UseEffect
+#### 1.Fetch API using UseEffect
 
-#### Handle Qauntity
+#### 2.Handle Qauntity
 
-#### Handle Total Price By Reducer
+#### 3.Handle Total Price By Reducer
 
 - Fetch API using UseEffect
 
@@ -70,11 +78,11 @@ const getTodos= async ()=>{
 
 ### List Of Points:
 
-#### HandleToggle
+#### 1.HandleToggle
 
-#### handleDelete
+#### 2.handleDelete
 
-#### InCompleted Data Show
+#### 3.InCompleted Data Show
 
 ```
 const handleToggle = (id) => {
