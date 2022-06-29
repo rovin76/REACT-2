@@ -30,9 +30,6 @@
 
 ```
 
-#### 2.
-
-#### 3.
 
 ## Points To Remember :-
 
