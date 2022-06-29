@@ -14,9 +14,9 @@
 
 ## Points To Remember :-
 
-[^note]:
-  **useEffect :-**
-  Basically you are telling React that your component needs to do something after render , & call it later after performing the DOM updates.
+**useEffect :-**
+
+[^note]: Basically you are telling React that your component needs to do something after render , & call it later after performing the DOM updates.
 
 .................................
 
