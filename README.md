@@ -62,9 +62,11 @@ const getTodos= async ()=>{
 
 # Day-1 () :-
 
-## functions,state,props
+## Topics :-
 
-### Todos
+functions,Todos,props,states etc
+
+### List Of Points:
 
 #### HandleToggle
 
