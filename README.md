@@ -14,6 +14,9 @@
 
 ## Points To Remember :-
 
+- <b>useEffect :- </b>
+  Basically you are telling React that your component needs to do something after render , & call it later after performing the DOM updates.
+
 .................................
 
 # Day-2 () :-
@@ -72,9 +75,7 @@ const getTodos= async ()=>{
 
 ## Points To Remember : -
 
-- <b>useEffect :- </b>
-  Basically you are telling React that your component needs to do something after render , & call it later after performing the DOM updates.
-  .................................
+.................................
 
 # Day-1 () :-
 
