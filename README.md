@@ -50,7 +50,8 @@
         
           {loading ? <h1>Loading...</h1> : <TodoItem data={todos}/>}
               or
-          {loading && <h1>Loading...</h1>  <TodoItem data={todos}/>}
+          {loading && <h1>Loading...</h1>  } 
+           <TodoItem data={todos}/>
           
        ```
 
