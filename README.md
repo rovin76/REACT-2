@@ -1,6 +1,28 @@
-# Day-2
 
-#### TodoApp with increment,decrement butttons as well as Total Updation
+
+
+# Day-2 () :- 
+
+## TodoApp with increment,decrement butttons as well as Total Updation, fetch data from api using useEffect
+
+- Fetch API using UseEffect
+
+```
+const getTodos= async ()=>{
+        try{
+             let res=await fetch("https://jsonplaceholder.typicode.com/todos");
+             let data= await res.json();
+             setTodos(data)
+        }
+        catch(err){
+            console.log("error",err)
+        }
+    }
+   useEffect(()=>{
+     getTodos()
+},[])
+
+```
 
 - Handle Qauntity
 
@@ -25,8 +47,8 @@
 
 .................................
 
-# Day-1 (functions,state,props)
-
+# Day-1 () :- 
+## functions,state,props
 ### Todos
 
 - HandleToggle
