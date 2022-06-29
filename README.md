@@ -47,7 +47,7 @@ const getTodos= async ()=>{
 
   ```
 
-- Handle Total Price By Reducer :
+* Handle Total Price By Reducer :
 
 ```
   const TotalCost=(data)=>{
@@ -66,9 +66,11 @@ const getTodos= async ()=>{
 
 ### Todos
 
-- HandleToggle
-- handleDelete
-- InCompleted Data Show
+#### HandleToggle
+
+#### handleDelete
+
+#### InCompleted Data Show
 
 ```
 const handleToggle = (id) => {
