@@ -1,16 +1,18 @@
 # Day-3 () :
 
-## UseEffect,
+## Topics :-
+
+- UseEffect ,
 
 .................................
 
 # Day-2 () :-
 
-## TodoApp ,UseEffect
+## Topics :-
 
-### TodoApp , Update Object of array, fetch data from api using useEffect
+- TodoApp , Update Object of array, fetch data from api using useEffect
 
-List of Points
+### List of Points
 
 #### Fetch API using UseEffect
 
@@ -64,7 +66,7 @@ const getTodos= async ()=>{
 
 ## Topics :-
 
-functions,Todos,props,states etc
+- functions,Todos,props,states etc
 
 ### List Of Points:
 
