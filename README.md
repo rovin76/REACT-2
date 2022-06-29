@@ -2,7 +2,7 @@
 
 ## Topics :-
 
-- UseEffect ,
+- UseEffect , axios, life cycle phases
 
 ### List Of Points
 
@@ -11,6 +11,8 @@
 #### 2.
 
 #### 3.
+
+## Points To Remember :-
 
 .................................
 
@@ -68,6 +70,8 @@ const getTodos= async ()=>{
 
 ```
 
+## Points To Remember : -
+
 .................................
 
 # Day-1 () :-
@@ -124,3 +128,5 @@ setTodos(updatedData);
         />
 </div>
 ```
+
+## Points To Remember :-
