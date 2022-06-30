@@ -6,8 +6,8 @@
 
 ### Study Material :-
 
-1.  :
-2.  :
+- 1.  :
+- 2.  :
 
 ## Points To Remember :-
 
