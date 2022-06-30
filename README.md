@@ -195,3 +195,5 @@ setTodos(updatedData);
 ## Points To Remember :-
 - **state** : 
    The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
+- **Props** : 
+   These are properties. Props are used to pass data, whereas state is for managing data. Data from props is read-only, and cannot be modified by a component that is receiving it from outside
