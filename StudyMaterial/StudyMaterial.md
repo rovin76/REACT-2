@@ -1,6 +1,47 @@
 # Day-4 () :
 
-## loading...
+##
+
+#### 1. Timer with setInterval :
+
+    - Mounting & Unmounting .
+
+```
+
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+
+    // Mounting (whenuseEffect create) .
+
+    let id = setInterval(() => {
+      setCount((prev) => prev + 1);
+    }, 1000);
+
+    // Unmounting (useEffect Die)
+
+    const cleanup = () => {
+      console.log("Unmounting", count);
+      clearInterval(id);
+    };
+    return cleanup;
+  }, []);
+
+```
+
+#### Timer with setTimeOut :
+
+```
+
+const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCount(count + 1);
+    }, 1000);
+  }, [count]);
+
+
+```
 
 .................................
 
