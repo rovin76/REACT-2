@@ -13,14 +13,14 @@
 
 .................................
 
-# Day-3 :-
+## Day-3 :-
 
 - 1. Pagination :
 - 2. Loading :
 
 .................................
 
-# Day-2 :-
+## Day-2 :-
 
 - 1.Fetch API using UseEffect
 - 2.Handle Qauntity
