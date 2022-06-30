@@ -1,15 +1,6 @@
 # Day-4 () :
 
-## Topics :-
-
-- UseEffect , axios, life cycle phases
-
-### Study Material :-
-
-- 1.  :
-- 2.  :
-
-## Points To Remember :-
+## loading...
 
 .................................
 
