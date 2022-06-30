@@ -1,10 +1,25 @@
+# Day-4 () :
+
+## Topics :-
+
+- UseEffect , axios, life cycle phases
+
+### Study Material :-
+
+1.  :
+2.  :
+
+## Points To Remember :-
+
+.................................
+
 # Day-3 () :
 
 ## Topics :-
 
 - UseEffect , axios, life cycle phases
 
-### Study Material :- 
+### Study Material :-
 
 #### 1. Pagination :
 
@@ -29,31 +44,34 @@
 
 
 ```
+
 #### 2. Loading :
 
 - There are two methods for loading with && operator or with ? operator
-    - SetLoading :
-    - Call it.
-       ```
-         const [loading,setLoad]=useState(false)  useState 
-          const getTodos= async(page)=>{
-          setLoad(true)
-          console.log(loading)
-          let res=await fetch(`https://jsonplaceholder.typicode.com/todos?_page=${page}&_limit=10`);
-          let data=await res.json();   
-          setTodos(data)
-           setLoad(false)
-            }
-          useEffect(()=>{
-            getTodos(page); 
-        },[page])
-        
-          {loading ? <h1>Loading...</h1> : <TodoItem data={todos}/>}
-              or
-          {loading && <h1>Loading...</h1>  } 
-           <TodoItem data={todos}/>
-          
-       ```
+
+  - SetLoading :
+  - Call it.
+
+    ```
+      const [loading,setLoad]=useState(false)  useState
+       const getTodos= async(page)=>{
+       setLoad(true)
+       console.log(loading)
+       let res=await fetch(`https://jsonplaceholder.typicode.com/todos?_page=${page}&_limit=10`);
+       let data=await res.json();
+       setTodos(data)
+        setLoad(false)
+         }
+       useEffect(()=>{
+         getTodos(page);
+     },[page])
+
+       {loading ? <h1>Loading...</h1> : <TodoItem data={todos}/>}
+           or
+       {loading && <h1>Loading...</h1>  }
+        <TodoItem data={todos}/>
+
+    ```
 
 ## Points To Remember :-
 
