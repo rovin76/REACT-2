@@ -3,6 +3,7 @@
 ## Topics :-
 
 - UseEffect , axios, life cycle phases
+- Timer with setInterval, setTimeOut, etc .
 
 ### Study Material :-
 
