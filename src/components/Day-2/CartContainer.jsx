@@ -38,7 +38,9 @@ const CartContainer = () => {
     }, 0);
   };
   return (
-    <div>
+    <div
+      style={{ border: "1px solid black", marginTop: "20px", padding: "10px" }}
+    >
       <h3>............Day-2...............</h3>
       {data.map((item) => (
         <CartItem

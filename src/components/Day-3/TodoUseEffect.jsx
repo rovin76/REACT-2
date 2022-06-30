@@ -20,7 +20,7 @@ const TodoUseEffect = () => {
   }, [page]);
   console.log("todos", todos);
   return (
-    <div>
+    <div style={{ border: "1px solid black", marginTop: "10px" }}>
       <h3>.............Day-3...........</h3>
       <h1>Todo List Using UseEffect</h1>
       <button disabled={page === 1} onClick={() => setPage(page - 1)}>

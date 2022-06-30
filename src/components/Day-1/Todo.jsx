@@ -32,7 +32,7 @@ const Todo = () => {
     setTodos(newTodos);
   };
   return (
-    <div>
+    <div style={{ border: "1px solid black", marginTop: "10px" }}>
       <h3> .............Day-1.................. </h3>
       <TodoAdd handleAdd={handleAdd} />
       <TodoItem
