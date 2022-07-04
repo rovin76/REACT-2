@@ -8,7 +8,7 @@ function PscClass() {
     fetch("http://localhost:8000/posts")
       .then((res) => res.json())
       .then((d) => {
-        getTodos(d);
+        setData(d);
       });
   };
 
@@ -58,7 +58,7 @@ function PscClass() {
     })
       .then((res) => res.json())
       .then((d) => {
-        setData(d);
+        getTodos();
       });
   };
 
